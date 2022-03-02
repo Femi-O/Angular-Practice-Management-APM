@@ -1,0 +1,30 @@
+  <div class="card">
+    <div class="card-header">
+      <h1>Notes</h1>
+    </div>
+
+    <!-- my code -->
+    <div class="card-body">
+
+      <h4>Here I record some of the notes I take when tweaking this app.</h4>
+      <p><b>For routing</b>, I have found there are two ways.</p>
+      <ol>
+        <li>Manual routing where I create a module, declare/import its component, expose the module to the root
+          AppModule by stating it under AppModule's "imports" section. <br></li>
+        <li>The cli command <code>ng g m notes --route notes --module app.module</code> which puts the routing straight
+          in the app.module but using a code that paths it straight to the string immediately after path (path:
+          'destination')</li>
+      </ol>
+
+      <!-- <img *ngFor='let product of products'
+                  [src]="product.imageUrl"
+                  [title]="product.productName"> -->
+    </div>
+    <!-- my code -->
+
+    <div class="card-footer">
+      <button class="btn btn-outline-secondary" style="width:80px" routerLink ='/welcome'>
+        <i class="fa fa-chevron-left"></i> Back
+      </button>
+    </div>
+  </div>

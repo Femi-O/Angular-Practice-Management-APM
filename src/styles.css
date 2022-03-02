@@ -4,6 +4,7 @@
 /* You can add global styles to this file, and also import other style files */
 div.card-header {
  font-size: large;
+ background-color: rgb(241, 180, 104);
 }
 
 div.card {
@@ -15,8 +16,14 @@ div.card {
 }
 
 a {
-  text-decoration: none; 
+  text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
+}
+body {
+  background-color: bisque;
+  background-image: url('src/assets/images/green hills1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
